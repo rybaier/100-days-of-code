@@ -25,5 +25,5 @@ Worked on quiz answer randomization and answer functionality after some research
 ## Day 5 2/21
 - went back and worked on an assigment from my General Assembly SEI course. It was to create a state capital guessing game in python. 
 - Thoughts: After returning to the assignment after a couple days I was able to figure out the loop to make the user decide when the game was over. It took me some trial and error but after I started using a while loop with a flag boolean variable it became much easier to get the game to repeat itself. I did  run into a never ending loop for a bit because my input was not being recognized the fix required a spacing elimination in my multiple conditional statement 
-    - code is in todays commit shown here https://github.com/rybaier/100-days-of-code/blob/master/python_playground.py 
-    - i'm going to delete the code when I work in the playground again
+    - code is in todays commit shown here https://github.com/rybaier/100-days-of-code/commit/d910347c751b0ad779de529a4cee9884fbac71cf
+  
