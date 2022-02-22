@@ -21,3 +21,9 @@ Worked on quiz answer randomization and answer functionality after some research
 - thoughts: the kata I worked on has thrown me for a loop I am finding it hard to switch to python as I do not know any of the syntax and the regex kata is difficult currently. I will overcome it but damn is it frustrating. After solving the Kata on codewars I moved on to making a backend for a previous react api project i made earlier in the course. The kata code is in the python_playground.py in this repo
     - I gave my self timer wanted to see how far I could get in 30 min. I will continue to use a 30 min timer to manage building the backend for my LOTR-toilet-time project
     -  https://github.com/rybaier/lotr-TT-BackEnd
+
+## Day 5 2/21
+- went back and worked on an assigment from my General Assembly SEI course. It was to create a state capital guessing game in python. 
+- Thoughts: After returning to the assignment after a couple days I was able to figure out the loop to make the user decide when the game was over. It took me some trial and error but after I started using a while loop with a flag boolean variable it became much easier to get the game to repeat itself. I did  run into a never ending loop for a bit because my input was not being recognized the fix required a spacing elimination in my multiple conditional statement 
+    - code is in todays commit shown here https://github.com/rybaier/100-days-of-code/blob/master/python_playground.py 
+    - i'm going to delete the code when I work in the playground again
