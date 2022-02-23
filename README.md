@@ -29,7 +29,7 @@ Worked on quiz answer randomization and answer functionality after some research
   
   ## Day 6 2/22/22 (TwosDay!)
 - worked on python for a while and then went back to fiddle with some css bugs I found in the mobile version of my last project for General Assembly. 
-- the python work was based on classes and making sub classes I only ran into a one blocker towards the end when trying to print a list of objects i keep gettingthe same error. so I switched to working on CSS for a previous project to make the mobile version appearence a little more user friendly after finding a couple of styling bugs. 
+- the python work was based on classes and making sub classes I only ran into a one blocker towards the end when trying to print a list of objects i keep gettingthe same error. so I switched to working on CSS for a previous project to make the mobile version appearence a little more user friendly after finding a couple of styling bugs. Then after a bit I went back and quickly solved my blocker and got the code printing what I wanted 
     - https://travel-watcher.herokuapp.com/ 
     - codebar python commit link https://github.com/rybaier/100-days-of-code/commit/15def44cd147212876aee313f8e563076c4deab5
 
