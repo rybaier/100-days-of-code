@@ -17,6 +17,8 @@ import re
 # camelCase('')
 # Write your code here!
 
+
+# Create Classes and sub classes 
 class Member:
     def __init__(self, full_name, why_you_here):
         self.full_name = full_name
