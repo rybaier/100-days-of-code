@@ -33,3 +33,8 @@ Worked on quiz answer randomization and answer functionality after some research
     - https://travel-watcher.herokuapp.com/ 
     - codebar python commit link https://github.com/rybaier/100-days-of-code/commit/15def44cd147212876aee313f8e563076c4deab5
 
+## Day 7 2/23
+- worked on django install and python classes and django specific syntax. after lesson on building a basic django backend started work on a seperate django backend for a basic book api. Additionally I started looking at React Native, as I think I am going to use it for my capstone project
+
+- django is super nice compared to mongodb from the shell experience to the GUI it seems so much more streamlined. I am really enjoying python and django both, after some initial struggles I am finding the concepts easy to grasp and debugging errors I run into hasn't been taking me very long to get through
+  - link to the commit for this evenings work not sure if it'll will be accessible to anyone but those in class with me. https://git.generalassemb.ly/ryanbaier/django-api-lab/commit/a7d31daaf859582b883ab3e6dca1dc0553f90d5c
