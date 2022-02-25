@@ -43,3 +43,4 @@ Worked on quiz answer randomization and answer functionality after some research
 - worked on django views/ templates/ and classbased views with serilizers
 - thoughts: it is super nice to be able to manipulate the front end with the backend. I also find it to be incredibly organized. I'm really starting to get a hang of django. There is a ton of new syntax, I think I am absorbing it fairly well. Overall looking forward to working with it more on larger scale projects. I'm going to work on user authentication with django next and maybe return to my lotr-tt backend project for a bit tomorrow.
   - link to the commit for this evenings work https://git.generalassemb.ly/seir-1213/scribble/pull/1/commits/2deaba335cbb3404a6cce34a08caf83400f4e22c
+  - link to lotr-tt backend project work, https://github.com/rybaier/lotr-TT-BackEnd/commit/5341a57a7ca3b76af79f3839aa2bcf15a81528b3
