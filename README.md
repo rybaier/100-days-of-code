@@ -38,3 +38,8 @@ Worked on quiz answer randomization and answer functionality after some research
 
 - django is super nice compared to mongodb from the shell experience to the GUI it seems so much more streamlined. I am really enjoying python and django both, after some initial struggles I am finding the concepts easy to grasp and debugging errors I run into hasn't been taking me very long to get through
   - link to the commit for this evenings work not sure if it'll will be accessible to anyone but those in class with me. https://git.generalassemb.ly/ryanbaier/django-api-lab/commit/a7d31daaf859582b883ab3e6dca1dc0553f90d5c
+
+## Day 8 2/24
+- worked on django views/ templates/ and classbased views with serilizers
+- thoughts: it is super nice to be able to manipulate the front end with the backend. I also find it to be incredibly organized. I'm really starting to get a hang of django. There is a ton of new syntax, I think I am absorbing it fairly well. Overall looking forward to working with it more on larger scale projects. I'm going to work on user authentication with django next and maybe return to my lotr-tt backend project for a bit tomorrow.
+  - link to the commit for this evenings work https://git.generalassemb.ly/seir-1213/scribble/pull/1/commits/2deaba335cbb3404a6cce34a08caf83400f4e22c
