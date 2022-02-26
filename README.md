@@ -45,7 +45,12 @@ Worked on quiz answer randomization and answer functionality after some research
   - link to the commit for this evenings work https://git.generalassemb.ly/seir-1213/scribble/pull/1/commits/2deaba335cbb3404a6cce34a08caf83400f4e22c
   - link to lotr-tt backend project work, https://github.com/rybaier/lotr-TT-BackEnd/commit/5341a57a7ca3b76af79f3839aa2bcf15a81528b3
 
-## Day 9 2/24
+## Day 9 2/25
 - worked on the express backend of my lotr-tt app made the controllers and started on the seed files. I also started taking a look at React Native in anticipation of my capstone project for my Software Engineering Course. 
 : thoughts - expres and mongoose are fairly simple and barebones as a backend but it gets the job done for this particular use case compared to django though it is fairly limited as to what it can do.
   - link to commit for backend https://github.com/rybaier/lotr-TT-BackEnd/commit/d5a8058c8faa9fd2aa05e2161a653eb773902d20
+
+## day 10 2/26
+- worked on express backend for lotr-tt i made the seed files and am working on building a getapidata file that writes to my individual seed files. 
+thoughts: I am moving along steadily in the process of building the backend for my app. I just ran into a blocker where I am not getting the data set to the variable i want to. I am calling the file with node and once i can log that the data is set to to my desired variable I can proceed to writing the code that writes to the seeds.json  files
+  - link to work https://github.com/rybaier/lotr-TT-BackEnd/blob/main/db/getAPIData.js
