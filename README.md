@@ -44,3 +44,8 @@ Worked on quiz answer randomization and answer functionality after some research
 - thoughts: it is super nice to be able to manipulate the front end with the backend. I also find it to be incredibly organized. I'm really starting to get a hang of django. There is a ton of new syntax, I think I am absorbing it fairly well. Overall looking forward to working with it more on larger scale projects. I'm going to work on user authentication with django next and maybe return to my lotr-tt backend project for a bit tomorrow.
   - link to the commit for this evenings work https://git.generalassemb.ly/seir-1213/scribble/pull/1/commits/2deaba335cbb3404a6cce34a08caf83400f4e22c
   - link to lotr-tt backend project work, https://github.com/rybaier/lotr-TT-BackEnd/commit/5341a57a7ca3b76af79f3839aa2bcf15a81528b3
+
+## Day 9 2/24
+- worked on the express backend of my lotr-tt app made the controllers and started on the seed files. I also started taking a look at React Native in anticipation of my capstone project for my Software Engineering Course. 
+: thoughts - expres and mongoose are fairly simple and barebones as a backend but it gets the job done for this particular use case compared to django though it is fairly limited as to what it can do.
+  - link to commit for backend https://github.com/rybaier/lotr-TT-BackEnd/commit/d5a8058c8faa9fd2aa05e2161a653eb773902d20
