@@ -54,3 +54,8 @@ Worked on quiz answer randomization and answer functionality after some research
 - worked on express backend for lotr-tt i made the seed files and am working on building a getapidata file that writes to my individual seed files. 
 thoughts: I am moving along steadily in the process of building the backend for my app. I just ran into a blocker where I am not getting the data set to the variable i want to. I am calling the file with node and once i can log that the data is set to to my desired variable I can proceed to writing the code that writes to the seeds.json  files
   - link to work https://github.com/rybaier/lotr-TT-BackEnd/blob/main/db/getAPIData.js
+
+## day 11 2/27
+- worked on and finished building express backend for lotr-tt and the database is seeded. next step is to deploy it for use with front end
+- thoughts: happy to have the backend ready to deploy so the quiz portion of the app can operate with request limit restrictions from the original api. Once it's deployed I just have to connect the front end and I will set down the lotr-tt project to focus on more exciting and upcoming prices 
+  - link to work https://github.com/rybaier/lotr-TT-BackEnd/commit/671a042c4336b11d2cd97bdf4f2af3786e4b0cf5
