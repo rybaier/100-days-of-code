@@ -59,3 +59,13 @@ thoughts: I am moving along steadily in the process of building the backend for 
 - worked on and finished building express backend for lotr-tt and the database is seeded. next step is to deploy it for use with front end
 - thoughts: happy to have the backend ready to deploy so the quiz portion of the app can operate with request limit restrictions from the original api. Once it's deployed I just have to connect the front end and I will set down the lotr-tt project to focus on more exciting and upcoming prices 
   - link to work https://github.com/rybaier/lotr-TT-BackEnd/commit/671a042c4336b11d2cd97bdf4f2af3786e4b0cf5
+
+## day 12 2/28
+- worked on creating a simple python/django app. A basic feed tracker for horses. 
+- thoughts: I've enjoyed python and the django framework quite a bit. It has been extremely efficient and I like the possibilites that it gives. 
+  - link to work https://github.com/rybaier/python_django_basic_app/tree/main/feedtracker_django
+
+## day 13 3/1
+- continued to work on my python/django app. It's almost complete. Going to do some extra styling and ave to get the last 2 urls working and I'll be ready to deploy
+- thoughts: no major blockers, I had a lot little errors that were fixed with simple syntax additions or subtractions
+  - link to work https://github.com/rybaier/python_django_basic_app/tree/main/feedtracker_django
