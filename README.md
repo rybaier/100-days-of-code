@@ -69,3 +69,11 @@ thoughts: I am moving along steadily in the process of building the backend for 
 - continued to work on my python/django app. It's almost complete. Going to do some extra styling and ave to get the last 2 urls working and I'll be ready to deploy
 - thoughts: no major blockers, I had a lot little errors that were fixed with simple syntax additions or subtractions
   - link to work https://github.com/rybaier/python_django_basic_app/tree/main/feedtracker_django
+
+## day 14 3/2 
+- began working on React Native today, It has been very quick to understand and is cementing a lot of the React.js concepts in place at the same time.
+- thoughts: I really like React Native and its possibilities
+
+## Day 15 3/3
+- continued working on React Native and then took a break to work on my feed tracker app I keep getting a 'tuple has no attribute 'get' ' error and I haven't been able to solve it yet. It is weird because I am using class based views and this error only occurs on one of my models not both.
+- vague errors are maddeningly frustrating 
