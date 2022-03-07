@@ -77,3 +77,14 @@ thoughts: I am moving along steadily in the process of building the backend for 
 ## Day 15 3/3
 - continued working on React Native and then took a break to work on my feed tracker app I keep getting a 'tuple has no attribute 'get' ' error and I haven't been able to solve it yet. It is weird because I am using class based views and this error only occurs on one of my models not both.
 - vague errors are maddeningly frustrating 
+
+## day 16 3/4
+- worked on react native tutorials and udemy course 
+- thoughts: react native is super interesting and I'm trying to make it through half the course before the start of my capstone week for my GA SEI  course 
+## Day 17 3/5
+- worked on react native 
+- ran into some interesting errors while working on a project with React Native, the course I am following has me using version 4 and due to that I had to spend a fair amount of time debugging and trying to make sure all the parts worked correctly because I forgot to install with --legacy-peer-deps so fixing the react navigation and gesture handlers took some time
+## day 18 3/6
+- worked on react native and my capstone wireframes and proposal 
+- thoughts: I am excited to begin my capstone project I feel that I am developing an app that will be really useful in the long run. Especially if I can get it to have all the functionality I am shooting for. 
+  - link to capstone repo https://github.com/rybaier/evac-assistance-app  
