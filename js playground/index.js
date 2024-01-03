@@ -6,14 +6,17 @@ function nameShuffler (name) {
 
     // console.log(newOrder)
 }
-// nameShuffler('john McClane')
+nameShuffler('john McClane')
+
 // remove exclamation from end of sentence 
 function remove (string) {  
     let newWord = string.replace(/!+$/g, '')
     console.log(newWord)
     return newWord;
   }
-//   remove('Hi!')
+  remove('Hi!')
+
+  //turn a string to camelCase
 function camelCase (string) {
     let word = string.replace(/-|_+/g, ' ').split(' ')
     word1 =word.shift()
@@ -75,4 +78,77 @@ function matchingBraces(braces) {
     
 }
 
-matchingBraces(['{}[]()', '(){]}'])
+// matchingBraces(['{}[]()', '(){]}'])
+
+// Given n points on a 2D plane where points[i] = [xi, yi], Return the widest vertical area
+// between two points such that no points are inside the area.
+// A vertical area is an area of fixed-width extending infinitely along the y-axis 
+// (i.e., infinite height). The widest vertical area is the one with the maximum width.
+
+// Note that points on the edge of a vertical area are not considered included in the area.
+var maxWidthOfVerticalArea = function(points) {
+    let width = points.length - 1
+    points.sort()
+    console.log(points, width)
+
+   points.forEach(point => {
+    let x = point[0]
+    console.log(x)
+   })
+   
+};
+
+// maxWidthOfVerticalArea([[8,7],[9,9],[7,4],[9,7]])
+
+// Given an array of integers nums and an integer target, return indices of the 
+// two numbers such that they add up to target.
+// You may assume that each input would have exactly one solution, and you may not use the same element twice.
+// You can return the answer in any order.
+
+var twoSum = function(nums, target) {
+    for (let i = 0; i<nums.length; i++){
+        for (let j = i+1; j<nums.length; j++){
+            if (nums[i] + nums[j] == target) return [i,j]
+        }
+    }
+     
+  }; 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024 
+
+  // You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, 
+  // starting with word1. If a string is longer than the other, append the additional letters onto the 
+  // end of the merged string. Return the merged string.
+
+  var mergeAlternately = function(word1, word2) {
+    let word1Array = word1.split("");
+    let word2Array = word2.split("")
+    let newWord = []
+
+    if (word1.length + word2.length < 1 || word1.length + word2.length > 100 ) 
+        return 'A word size does not meet minimum or maximum requirements.'
+    if (word1Array.length == word2Array.length) {
+        for (let i = 0; i<word1Array.length; i++){
+            newWord.push(word1Array[i])
+            newWord.push(word2Array[i])
+        }
+        return newWord.join('')
+   } else if (word1Array.length > word2Array.length) {
+        for (let i = 0; i<word1Array.length; i++){
+            newWord.push(word1Array[i])
+            newWord.push(word2Array[i])
+         }
+        return newWord.join('')
+   } else if (word1Array.length < word2Array.length) {
+        for (let i = 0; i<word2Array.length; i++){
+            newWord.push(word1Array[i])
+            newWord.push(word2Array[i])
+         }
+        return newWord.join('')
+   }
+};
+
+// mergeAlternately("morewords", "evenmorewords")
+
+// 
