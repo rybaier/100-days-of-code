@@ -14,7 +14,7 @@ function remove (string) {
     console.log(newWord)
     return newWord;
   }
-  remove('Hi!')
+//   remove('Hi!')
 
   //turn a string to camelCase
 function camelCase (string) {
@@ -151,4 +151,50 @@ var twoSum = function(nums, target) {
 
 // mergeAlternately("morewords", "evenmorewords")
 
-// 
+// For two strings s and t, we say "t divides s" if and only if s = t + ... + t 
+// (i.e., t is concatenated with itself one or more times).
+// Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
+
+var gcdOfStrings = function(str1, str2) {
+   
+
+    // if (str1.split("").at(0) != str2.split("").at(0)){
+    //     return ""
+    // } else if (str1 + str2 != str2 + str1 ) {
+    //     return ""
+    // } else if (str1 + str2 == str2 + str1 ){
+    //     for (let i = 0; i<str2Length; i++){
+    //         let base = str1.charAt(0)
+    //         let base2 = str1.substring(base, i)
+    //         let base3 = str2.substring(base, i)
+    //         console.log(gcd, base, base2, base3)
+    //         let base4 = base3.charAt(gcd)
+    //         if (base == base3.charAt(gcd) && i > 1) {
+    //           return  str1.substring(0, gcd), console.log(str1.substring(0, gcd), "me")
+    //         } else if ( base2 == base3 && base != base3.charAt(gcd) ){
+    //              gcd++
+    //         }
+             
+    //     }
+    // }
+    // return console.log(str1.substring(0, gcd))
+
+    let str1Length= str1.length
+    let str2Length= str2.length
+    let gcd = Math.min(str1.length, str2.length)
+
+    if (str1.split("").at(0) != str2.split("").at(0)){
+        return ""
+    } else if (str1 + str2 != str2 + str1 ) {
+        return ""
+    } else 
+        for (let i = gcd; i > 0; i--) {
+                if (str1Length % i == 0 && str2Length % i == 0){
+                    return str1.substring(0,i), console.log(str1.substring(0,i) )
+            }
+        }
+        
+};
+
+
+// gcdOfStrings("ABABAB", "ABAB")
