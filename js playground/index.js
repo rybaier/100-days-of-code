@@ -198,3 +198,151 @@ var gcdOfStrings = function(str1, str2) {
 
 
 // gcdOfStrings("ABABAB", "ABAB")
+
+// You have a long flowerbed in which some of the plots are planted, 
+// and some are not. However, flowers cannot be planted in adjacent plots.
+
+// Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, 
+// and an integer n, return true if n new flowers can be planted in the flowerbed
+//  without violating the no-adjacent-flowers rule and false otherwise.
+
+var canPlaceFlowers = function(flowerbed, n) {
+    // let flowerNumber = 0
+    // let emptySpace = 0
+    // let flowerSpots= flowerbed.length -1
+
+    // console.log(flowerSpots, flowerbed.length)
+    // let emptySpace = 0
+    // let planted = 0
+    // let flowers = 1
+    
+    //  if (flowerbed[0] == 0 && flowerbed[1]==0 && flowerbed.length!=2) {
+    //          planted++ 
+    //     }
+    // for (let i = 0; i<flowerbed.length; i++){
+    //     if(flowerbed[i]==0){
+    //         emptySpace++
+    //     }
+    //     if (flowerbed[i]){
+    //         flowers++
+    //     }
+    //     if (flowerbed[i] == 0 && flowerbed[i-1] == 0 && flowerbed[i+1]==0){
+    //         planted++
+           
+    //     }
+    // }   
+    // if (planted>=n){
+    //     return true, console.log(true, emptySpace, planted)
+    // } else {
+    //     return false, console.log(false)
+    // }
+
+    
+    // if (flowerbed[0] == 0 && flowerbed[1]==0 && flowerbed.length!=2) {
+    //        emptySpace++   
+    //    }
+    // for (let i = 0; i<flowerbed.length; i++){
+    //     console.log(flowerbed[i])
+    //     // if (flowerbed[i] == 0) {
+    //     //      console.log('empty')
+    //     // }
+    //     if (flowerbed[i] == 0) {
+    //         flowerNumber++, console.log('flower')
+    //     }
+    //     if (flowerbed[i] == 0 && flowerbed[i-1] == 0 && flowerbed[i+1]==0) {
+    //         emptySpace++, console.log(emptySpace)
+    //         if (flowerbed[i+2]==0) {
+    //             i++, console.log('jumping', flowerNumber)
+                
+    //         }
+    //     } 
+        
+    // }
+    // if (flowerbed[flowerSpots-1] == 0 && flowerbed[flowerSpots]==0) {
+    //     emptySpace++   
+    // }
+    // if (emptySpace>=n && flowerNumber < emptySpace){
+    //     return true, console.log(true, emptySpace)
+    // } else {
+    //     return false, console.log(false, emptySpace)
+    // } 
+//    for (let i = 0; i< flowerbed.length; i++){
+//         console.log(flowerbed[i])
+//         if (flowerbed[i] == 1){
+//             planted++
+//         }
+//         if (flowerbed[i]==0){
+//             flowerNumber++
+//         }
+//         if (flowerbed[i] == 0 && flowerbed[i-1] == 0 && flowerbed[i+1]==0) {
+//            emptySpace++, console.log(emptySpace, 'me') 
+//         } 
+//     }
+//     if (emptySpace == n && emptySpace != flowerNumber/emptySpace){
+//         return true, console.log (true)
+//     }    else{
+//     return false, console.log(false)
+//     }
+// };
+
+
+// for (let i = 0; i< flowerbed.length; i+2){
+//     console.log(flowerbed[i])
+//     // if (flowerbed[i] == 1){
+//     //     planted++, console.log("three")
+//     // }
+//     // if (flowerbed[i]==0){
+//     //     flowerNumber++, console.log(flowerNumber, "too")
+//     // }
+//     if (flowerbed[i] == 0 && flowerbed[i-1] == 0 && flowerbed[i+1]==0) {
+//        emptySpace++, console.log(emptySpace, "me")
+//     } 
+// }
+// if (emptySpace < n){
+//     return false
+// }   else if (emptySpace == n && emptySpace != flowerNumber/emptySpace || flowerNumber % 2 != 0){
+//     return true
+// } else if (n == flowerNumber - planted){
+//     return false, console.log(false)
+// } else {
+//     return false, console.log(false)
+// }
+// };
+
+// for (let i = 0; i< flowerbed.length; i++){
+//     console.log(flowerbed[i])
+//     if (flowerbed[i] == 1){
+//         planted++
+//     }
+//     if (flowerbed[i]==0){
+//         flowerNumber++
+//     }
+//     if (flowerbed[i] == 0 && flowerbed[i-1] == 0 && flowerbed[i+1]==0) {
+//        emptySpace++
+//     } 
+// }
+// if (emptySpace < n){
+// return false
+// }   else if (emptySpace == n && emptySpace != flowerNumber/emptySpace || flowerNumber % 2 != 0){
+// return true
+// } else if (n == flowerNumber - planted){
+// return false
+// } else {
+// return false
+// }
+
+//     for (let i = 0; i< flowerbed.length; i+=2){
+//         console.log(flowerbed[i])
+//         if (flowerbed[i] == 0 && flowerbed[i-1] == 0 && flowerbed[i+1]==0) {
+//         emptySpace++, console.log(emptySpace, "me")
+//         } 
+//         }
+//     if (emptySpace>=n) {
+//         return true, console.log(true)
+//     } else {
+//         return false, console.log(false)
+//     }
+
+};
+
+canPlaceFlowers([0,0,0,0], 3 )
