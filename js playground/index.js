@@ -207,6 +207,36 @@ var gcdOfStrings = function(str1, str2) {
 //  without violating the no-adjacent-flowers rule and false otherwise.
 
 var canPlaceFlowers = function(flowerbed, n) {
+    // tried so many ways to solve this correctly and I way overcomplicated it. so I looked at the
+    // editorial and discussion boards and saw an explanation that simplified it. gave it a night
+    // and came up with the following
+
+    //there is no need to use a seperate counter only verification is needed
+    // if the conditions are true n can be reduced by 1 showing a seed was planted in the available slot
+    // the key thing I missed was manipulating the array and changing the current pod to 1
+    let leftPod = -1
+    let currentPod = 0
+    let rightPod = 1
+   
+        for(i = 0; i < flowerbed.length; i++, leftPod++, rightPod++){
+            console.log('loop')
+            if (flowerbed[i] == 0 && flowerbed[rightPod]!= 1 && flowerbed[leftPod] != 1){
+                flowerbed[i] =1,
+                console.log(flowerbed[leftPod], flowerbed[currentPod], flowerbed[rightPod], "updated"),
+                n--,
+                console.log(n, 'seeds')
+
+            }
+        }
+
+    
+        if (n<=0) {
+            return true, console.log(true)
+        } else {
+            return false, console.log(false)
+        }
+    
+
     // let flowerNumber = 0
     // let emptySpace = 0
     // let flowerSpots= flowerbed.length -1
@@ -345,4 +375,4 @@ var canPlaceFlowers = function(flowerbed, n) {
 
 };
 
-canPlaceFlowers([0,0,0,0], 3 )
+canPlaceFlowers([0,0,0,0,0], 3 )
