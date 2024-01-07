@@ -214,11 +214,12 @@ var canPlaceFlowers = function(flowerbed, n) {
     //there is no need to use a seperate counter only verification is needed
     // if the conditions are true n can be reduced by 1 showing a seed was planted in the available slot
     // the key thing I missed was manipulating the array and changing the current pod to 1
+    // //////////////////////// SOLUTION
     let leftPod = -1
     let currentPod = 0
     let rightPod = 1
    
-        for(i = 0; i < flowerbed.length; i++, leftPod++, rightPod++){
+        for(i = currentPod; i < flowerbed.length; i++, leftPod++, rightPod++){
             console.log('loop')
             if (flowerbed[i] == 0 && flowerbed[rightPod]!= 1 && flowerbed[leftPod] != 1){
                 flowerbed[i] =1,
@@ -235,7 +236,7 @@ var canPlaceFlowers = function(flowerbed, n) {
         } else {
             return false, console.log(false)
         }
-    
+///////////////////////////////////////    ATTEMPTS
 
     // let flowerNumber = 0
     // let emptySpace = 0
@@ -375,4 +376,92 @@ var canPlaceFlowers = function(flowerbed, n) {
 
 };
 
-canPlaceFlowers([0,0,0,0,0], 3 )
+// canPlaceFlowers([0,0,0,0,0], 3 )
+
+// There are n kids with candies. You are given an integer array candies, 
+// where each candies[i] represents the number of candies the ith kid has, 
+// and an integer extraCandies, denoting the number of extra candies that you have.
+// Return a boolean array result of length n, where result[i] is true if, 
+// after giving the ith kid all the extraCandies, 
+// they will have the greatest number of candies among all the kids, or false otherwise.
+// Note that multiple kids can have the greatest number of candies.
+
+var kidsWithCandies = function(candies, extraCandies) {
+    let highestNumberOfCandies = Math.max(...candies)
+    let numberOfKids = candies.length
+    // let highestNumberOfCandies = highNumber
+    console.log(numberOfKids, highestNumberOfCandies)
+    let kids =[]
+    candies.forEach((kid)=>{
+        if (kid + extraCandies >= highestNumberOfCandies){
+            kids.push(true)
+            console.log(kid)
+        } else{
+            kids.push(false)
+            console.log(kid)
+        }
+        
+    })
+    console.log(kids)
+};
+
+// kidsWithCandies([2,3,5,1,3], 1)
+
+// Given a string s, reverse only all the vowels in the string and return it.
+// The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once.
+
+var reverseVowels = function(s) {
+// take the string split into array
+// verify if letter at index is a vowel a e i o u
+// reorder vowels
+// return array to string
+    s = s.split("")
+    let vowelArray = []
+    let indexArray = []
+    for(i = 0; i<s.length; i++){
+        if(s[i] == 'a' || s[i] == "e" || s[i] =="i" || s[i] =="o" || s[i] == "u"
+        || s[i] == 'A' || s[i] == "E" || s[i] =="I" || s[i] =="O" || s[i] == "U"){
+            console.log(i ,true)
+            vowelArray.push(s[i])
+            indexArray.push(i)
+            console.log(vowelArray, indexArray)
+        }
+    }
+    vowelArray.reverse()
+    for (j=0;j<vowelArray.length;j++){
+        s.splice(indexArray[j],1, vowelArray[j])
+    }
+    s.join("")
+    return s, console.log(s)
+
+};
+
+// reverseVowels("hEllo world")
+
+// Given an input string s, reverse the order of the words.
+
+// A word is defined as a sequence of non-space characters.
+// The words in s will be separated by at least one space.
+// Return a string of the words in reverse order concatenated by a single space.
+// Note that s may contain leading or trailing spaces or multiple spaces between two words. 
+// The returned string should only have a single space separating the words. 
+// Do not include any extra spaces.
+
+var reverseWords = function(s) {
+   let reverse = s.split(' ').reverse()
+    console.log(reverse.length)
+     do{
+       for (i = 0; i<reverse.length; i++){
+        if (reverse[i]== ' ' || reverse[i]== ''){
+            reverse.splice(i, 1)
+        }
+       }
+      } while (reverse.includes(''))
+      console.log(reverse.join(' '))
+    return reverse.join(' ')
+
+
+}
+
+// reverseWords("  the sky is blue ")
+
