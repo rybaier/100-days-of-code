@@ -4,7 +4,8 @@ Didn't make it far last time before having to break the streak. This year I am g
 ## Day 1 - 1/2/23
 Started the LeetCode 75 Interview Question prep. Today's problem was to merge strings alternately. I used javascript to solve this problem writing a series of conditionals with nested loops. First I split each word into a seperate array and then pushed each index of the array in alteranting order until both words were finished
 
- - https://github.com/rybaier/100-days-of-code/blob/master/js%20playground/index.js lines 124 - 150 
+ - https://github.com/rybaier/100-days-of-code/blob/master/js%20playground/index.js lines 124 - 150
+# Switched to 100-days-of-leetcode-repo https://github.com/rybaier/100_days_of_code_leetcode
 
 # 100 days of code Log
 This is my log after comiting to 100 days of code. I am 1 month from finishing my SoftwareEngineering Bootcamp course and am ecstatic to see what I will have completed at the end of this 100 days though I know some days are going to be frustrating! The goal is continue learning and continue growing my knowledge and skills in development
